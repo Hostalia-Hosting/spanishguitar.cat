@@ -4,6 +4,7 @@ $subject   = 'FORM - SpanishGuitar.cat'; // Enter the subject of the email here.
 $success   = 'Your message was sent successful. Thanks.';
 $error     = 'Sorry. We were unable to send your message.';
 $invalid   = 'Validation errors occurred. Please confirm the fields and submit it again.';
+$url_origen = $_SERVER['HTTP_REFERER'] ?? 'URL no detectada';
 
 if ( ! empty( $_POST ) ) {
 
@@ -54,6 +55,10 @@ if ( ! empty( $_POST ) ) {
         $body  = '<table style="padding: 35px; background-color: #f5f5f5"; font-family: Roboto, sans-serif; font-size: 1rem; text-align: left; border-radius: 4px>';
         $body .= '<tr><th style="font-size: 1.5rem; font-weight: 600; color: #1E50BC">'.$subject.'</th></tr>';
         $body .= '<tr></td>';
+
+        // Afegim la URL d'origen manualment aquí:
+        $body .= '<p style="margin-bottom: 10px;"><b>Pàgina d\'origen</b>: ' . $url_origen . '</p>';
+        $body .= '<hr style="border: 0; border-top: 1px solid #ccc; margin-bottom: 20px;">';
 
         foreach( $_POST as $key => $value ) {
             if ( $key != 'section' && $key != 'reCAPTCHA' ) {
