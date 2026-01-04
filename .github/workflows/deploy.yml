@@ -1,0 +1,25 @@
+name: 🚀 Deploy Website via FTP
+on:
+  push:
+    branches:
+      - main  # S'executarà cada vegada que facis push a la branca main
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: ./spanishguitar.cat  # Revisa si a Hostalia la teva carpeta és /httpdocs/ o /public_html/
+        # Això evita que s'esborrin fitxers al servidor que no estiguin a GitHub (com carpetes de logs o configuracions pròpies de Hostalia)
+        delete-destination-prevent-shield: true
