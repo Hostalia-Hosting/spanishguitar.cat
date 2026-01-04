@@ -8,11 +8,11 @@
         <?php include "common-php/head.html"; ?>
         <!-- /COMMON-HEAD -->
 
-        <title>Professional Spanish Guitarist for Weddings in Barcelona</title>
+        <title>Professional Spanish Guitarist for Weddings in Barcelona | Toni</title>
 
-        <meta name="description" content="PENDING DESCRIPTION">
-        <meta name="subject" content="PENDING SUBJECT">
-        <meta name="author" content="Spanish Guitar - Benja">
+        <meta name="description" content="Elevate your Barcelona wedding with Toni's live Spanish guitar music. Specializing in elegant instrumental covers for ceremonies and cocktails in luxury hotels, masias, and historic venues across Barcelona.">
+        <meta name="subject" content="Live Spanish Guitar Music for Weddings and Events in Barcelona">
+        <meta name="author" content="Spanish Guitar - Toni">
         
     </head>
 

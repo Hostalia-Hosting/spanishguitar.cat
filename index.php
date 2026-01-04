@@ -12,7 +12,7 @@
 
         <meta name="description" content="Professional Spanish guitarist for destination weddings in Barcelona, Costa Brava, and Sitges. Elegant live music for your ceremony and cocktail hour. Book your authentic Mediterranean soundtrack.">
         <meta name="subject" content="Spanish Guitarist for Weddings and Events in Barcelona, Costa Brava and Sitges">
-        <meta name="author" content="Spanish Guitar - Benja">
+        <meta name="author" content="Spanish Guitar - Toni">
         
     </head>
 

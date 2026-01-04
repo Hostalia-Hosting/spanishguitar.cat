@@ -10,9 +10,9 @@
 
         <title>Professional Spanish Guitarist for Weddings in Costa Brava</title>
 
-        <meta name="description" content="PENDING DESRIPTION"> ">
-        <meta name="subject" content="PENDING SUBJECT">
-        <meta name="author" content="Spanish Guitar - Benja">
+        <meta name="description" content="Elevate your Costa Brava wedding with Toni's live Spanish guitar music. Specializing in elegant instrumental covers for ceremonies and cocktails in luxury hotels, masias, and historic venues across Costa Brava.">
+        <meta name="subject" content="Live Spanish Guitar Music for Weddings and Events in Costa Brava">
+        <meta name="author" content="Spanish Guitar - Toni">
         
     </head>
 
