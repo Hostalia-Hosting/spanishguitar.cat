@@ -5,7 +5,8 @@ $base_url = "https://www.spanishguitar.cat/";
 $ignorar = [
     '.github',
     'common-php',
-    'php'
+    'php',
+    'generar-sitemap.php'
 ];
 
 header("Content-Type: application/xml; charset=utf-8");
