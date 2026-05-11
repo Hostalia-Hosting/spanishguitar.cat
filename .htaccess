@@ -1,0 +1,8 @@
+RewriteEngine On
+ErrorDocument 404 /404.php
+
+# ==========================================================
+# GENERAR SITEMAP QUAN ES DEMANA
+# ==========================================================
+RewriteEngine On
+RewriteRule ^sitemap\.xml$ generar-sitemap.php [L]
