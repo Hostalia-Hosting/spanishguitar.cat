@@ -16,6 +16,7 @@
 1. Root
 2. Button
 3. Effect
+3. HERO BY ARNALD  11/05/2026
 
 ----------------------------------------------*/
 
@@ -184,3 +185,29 @@
 }
 
 /* #endregion Effect */
+
+/*----------------------------------------------
+3. HERO BY ARNALD  11/05/2026
+----------------------------------------------*/
+
+/* Forcem l'alçada total del slider i el contenidor swiper EDIT ARNALD  11/052026 */
+#slider.hero, 
+#slider .swiper-container, 
+#slider .swiper-slide {
+    height: 100vh !important; /* vh = viewport height (100% de l'alçada de la pantalla) */
+    min-height: 100vh;
+}
+
+/* Corregim les línies negres: fem que la imatge ompli tot l'espai EDIT ARNALD  11/052026 */
+#slider .swiper-slide img.full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Això talla lleugerament els costats però elimina les línies negres */
+    object-position: center; /* Manté el centre de la foto sempre visible */
+}
+
+@media (max-width: 767px) {
+    #slider.hero, #slider .swiper-container {
+        height: 100dvh !important; /* 'dvh' és l'alçada dinàmica moderna per a mòbils */
+    }
+}
