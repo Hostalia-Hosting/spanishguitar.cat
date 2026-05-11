@@ -8,11 +8,8 @@
         <?php include "../common-php/head.html"; ?>
         <!-- /COMMON-HEAD -->
 
-        <title>Elegant Spanish Guitarist for Destination Weddings in Barcelona, Costa Brava & Sitges</title>
-
-        <meta name="description" content="Professional Spanish guitarist for destination weddings in Barcelona, Costa Brava, and Sitges. Elegant live music for your ceremony and cocktail hour. Book your authentic Mediterranean soundtrack.">
-        <meta name="subject" content="Spanish Guitarist for Weddings and Events in Barcelona, Costa Brava and Sitges">
-        <meta name="author" content="Spanish Guitar - Toni">
+        <title>Wedding Guitarist Videos | Live Sessions in Barcelona & Costa Brava</title>
+        <meta name="description" content="Experience the elegance of Spanish guitar. Watch live wedding music sessions from luxury venues in Barcelona, Sitges, and the Costa Brava. From modern pop covers to Mediterranean classics, find the perfect soundtrack for your ceremony and cocktail hour. Book Toni for your destination wedding in Spain.">
         
     </head>
 
@@ -23,40 +20,24 @@
         <!-- /COMMON-HEADER/NAVIGATION -->
 
         <!-- COMMON-HERO -->
-        <?php include "../common-php/hero/main-en.html"; ?>
+        <?php include "../common-php/hero/videos/en.html"; ?>
         <!-- /COMMON-HERO -->
 
         <!-- COMMON-ABOUT -->
-        <?php include "../common-php/about/en.html"; ?>
+        <?php include "../common-php/videos/main-videos-barcelona-en.html"; ?>
         <!-- /COMMON-ABOUT -->
 
-        <!-- COMMON-VIDEOS -->
-        <?php include "../common-php/videos/main-en.html"; ?>
-        <!-- /COMMON-VIDEOS -->
-
-        <!-- COMMON-GALLERY -->
-        <?php include "../common-php/gallery/en.html"; ?>
-        <!-- /COMMON-GALLERY -->
-
-        <!-- COMMON-WEDDINGS -->
-        <?php include "../common-php/weddings/main-services-en.html"; ?>
-        <!-- /COMMON-WEDDINGS -->
-
-        <!-- COMMON-BOOKINGPROCESS -->
-        <?php include "../common-php/booking-process/en.html"; ?>
-        <!-- /COMMON-BOOKINGPROCESS -->
-
-        <!-- COMMON-LOCATIONS -->
-        <?php include "../common-php/venues/list-en.html"; ?>
-        <!-- /COMMON-LOCATIONS -->
-
-        <!-- COMMON-TESTIMONIALS -->
-        <?php include "../common-php/testimonials/en.html"; ?>
-        <!-- /COMMON-TESTIMONIALS -->
+        <!-- COMMON-ABOUT -->
+        <?php include "../common-php/videos/main-videos-sitges-en.html"; ?>
+        <!-- /COMMON-ABOUT -->
 
         <!-- COMMON-PRICING -->
         <?php include "../common-php/pricing/en.html"; ?>
         <!-- /COMMON-PRICING -->
+
+        <!-- COMMON-ABOUT -->
+        <?php include "../common-php/videos/main-videos-emporda-en.html"; ?>
+        <!-- /COMMON-ABOUT -->
 
         <!-- COMMON-CONTACT -->
         <?php include "../common-php/contact/en.html"; ?>
