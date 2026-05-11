@@ -50,14 +50,14 @@
         <?php include "common-php/venues/list-en.html"; ?>
         <!-- /COMMON-LOCATIONS -->
 
+        <!-- COMMON-TESTIMONIALS -->
+        <?php include "common-php/testimonials/en.html"; ?>
+        <!-- /COMMON-TESTIMONIALS -->
+
         <!-- COMMON-PRICING -->
         <?php include "common-php/pricing/en.html"; ?>
         <!-- /COMMON-PRICING -->
 
-        <!-- COMMON-TESTIMONIALS -->
-        <?php include "common-php/testimonials/en.html"; ?>
-        <!-- /COMMON-TESTIMONIALS -->
-         
         <!-- COMMON-CONTACT -->
         <?php include "common-php/contact/en.html"; ?>
         <!-- /COMMON-CONTACT -->
